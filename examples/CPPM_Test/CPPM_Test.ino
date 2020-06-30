@@ -5,6 +5,7 @@
  * Displayes pulse width of each channel
  */
 
+#define SERIAL_PORT Serial
 #include <CPPM-RX.h>
 
 void setup() {
@@ -23,5 +24,8 @@ void loop() {
   delay(250);
 
   CPPM_display();
+  
+ // Serial.println("RX_Fail ");
+ // Serial.println (RX_Fail(), DEC);
 
 }
