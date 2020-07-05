@@ -1,7 +1,10 @@
 # CPPM-RX
 Simple Arduino library for RC receivers that output CPPM
 
-This is curerently configured for the Orange RX R615X Receiver from HobbyKing
+This is curerently configured for Orange Receivers from HobbyKing.
+Testet with:
+- R615X
+- R616XN
 
 ### Usage:
  *	`StartCPPM(int)` -- Run once in setup.  Pass the Arduino interrupt number (not pin number)
