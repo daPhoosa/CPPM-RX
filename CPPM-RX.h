@@ -17,7 +17,7 @@
          along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 
-      StartCPPM(int) -- Run once in setup.  Pass the Arduino interrupt number (not pin number)
+      StartCPPM(int) -- Run once in setup.  Pass the Arduino pin number.
 
       To Access pulse widths use the following:
          RC_THROT
